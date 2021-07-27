@@ -53,6 +53,7 @@ def merge_configs(default, overwrite):
 
 
 def get_config(config_path):
+    print("adding a line to test here")
     """Retrieve the config from the specified path, returning a config dict."""
     if not os.path.exists(config_path):
         raise ConfigDoesNotExistException(
